@@ -24,7 +24,7 @@ export default function Removebackground() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("http://147.93.96.202:8002/remove-bg", {
+    const res = await fetch("https://api.dijistore.in/remove-bg", {
       method: "POST",
       body: formData,
     });

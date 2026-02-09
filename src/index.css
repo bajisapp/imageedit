@@ -10,8 +10,13 @@ git clone https://github.com/bajisapp/imageedit.git
  git pull origin main
 npm install 
 npm run build 
+sudo systemctl restart nginx 
+
+domain change only
 sudo nano /etc/nginx/sites-available/edit.dijistore.in
 sudo ln -s /etc/nginx/sites-available/edit.dijistore.in /etc/nginx/sites-enabled/
 
+backend
 
+:~# cd /root/ai-bg-remove
 */
