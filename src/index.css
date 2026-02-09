@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+
+/* git add .
+git commit -m "Update React Vite project"
+git push origin main
+
+cd /var/www/edt.dijistore.in
+git clone https://github.com/bajisapp/imageedit.git 
+ git pull origin main
+npm install 
+npm run build 
+sudo nano /etc/nginx/sites-available/edit.dijistore.in
+sudo ln -s /etc/nginx/sites-available/edit.dijistore.in /etc/nginx/sites-enabled/
+
+
+*/
