@@ -6,6 +6,7 @@ git commit -m "Update React Vite project"
 git push origin main
 
 cd /var/www/edt.dijistore.in
+cd /var/www/edit.dijistore.in/imageedit
 git clone https://github.com/bajisapp/imageedit.git 
  git pull origin main
 npm install 
